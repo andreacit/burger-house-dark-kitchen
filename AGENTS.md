@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+
+- Product catalog content (names, descriptions, details, image paths) lives only in `src/data/productos.ts`; business info in `src/data/negocio.ts` — so content edits never touch components.
+- Product photos are plain files in `public/productos/`, not CDN asset pointers — the site must also deploy from GitHub to Vercel, where Lovable asset URLs don't resolve.
+- The contact form is browser-only (validation in `src/lib/consulta.ts`, saved to localStorage); never add email or database services — it is an academic demo.
