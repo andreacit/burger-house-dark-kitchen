@@ -30,12 +30,12 @@ export const productos: Producto[] = [
   },
   {
     id: "hamburguesa-2",
-    nombre: "Hamburguesa 2",
-    descripcion: "Con tocino crujiente y cebolla caramelizada.",
+    nombre: "Hamburguesa La Clásica",
+    descripcion: "Carne de res con tocino con miel, cheddar fundido y cebolla caramelizada.",
     detalles:
-      "Carne de res, tocino crujiente, cebolla caramelizada, salsa barbecue ahumada y pan con ajonjolí. Texto de muestra para la demostración.",
+      "250 g de carne de res, tocino con miel, 50 g de queso cheddar fundido y cebolla caramelizada. Se acompaña con una ensalada de lechuga fresca, cebolla, jitomate y aguacate. Puedes elegir pan clásico o pan con topping de hierbas finas.",
     imagen: "/productos/hamburguesa-2.jpg",
-    textoAlternativo: "Hamburguesa con tocino, cebolla caramelizada y salsa barbecue",
+    textoAlternativo: "Hamburguesa La Clásica",
   },
   {
     id: "hamburguesa-3",
