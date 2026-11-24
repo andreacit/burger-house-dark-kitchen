@@ -48,11 +48,11 @@ export const productos: Producto[] = [
   },
   {
     id: "hamburguesa-4",
-    nombre: "Hamburguesa 4",
-    descripcion: "Doble carne aplastada con pepinillos.",
+    nombre: "Hamburguesa La Argentina de Short Rib",
+    descripcion: "Costilla de res horneada con hoja de aguacate, costra de provolone y confit de morrón.",
     detalles:
-      "Dos carnes delgadas y doradas, queso amarillo, pepinillos, cebolla y pan suave envuelto en papel. Texto de muestra para la demostración.",
+      "200 g de costilla de res horneada con hoja de aguacate, con una costra de 50 g de queso provolone, confit de morrón y cebolla caramelizada. Incluye una ensalada servida aparte con lechuga fresca, cebolla, jitomate y aguacate. Puedes elegir pan clásico o pan con topping de hierbas finas.",
     imagen: "/productos/hamburguesa-4.jpg",
-    textoAlternativo: "Hamburguesa doble con queso amarillo y pepinillos envuelta en papel",
+    textoAlternativo: "Hamburguesa La Argentina de Short Rib",
   },
 ];
