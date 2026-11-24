@@ -21,12 +21,12 @@ export interface Producto {
 export const productos: Producto[] = [
   {
     id: "hamburguesa-1",
-    nombre: "Hamburguesa 1",
-    descripcion: "Clásica con queso cheddar, lechuga y jitomate.",
+    nombre: "Hamburguesa La Louisiana",
+    descripcion: "Pollo empanizado estilo Louisiana con manchego gratinado y cebolla caramelizada.",
     detalles:
-      "Carne de res a la plancha, queso cheddar fundido, lechuga fresca, jitomate y pan brioche tostado. Texto de muestra para la demostración.",
+      "200 g de pollo empanizado estilo Louisiana, 50 g de queso manchego gratinado y cebolla caramelizada. Se acompaña con una ensalada servida aparte de lechuga fresca, cebolla, jitomate y aguacate. Puedes elegir pan clásico o pan con topping de hierbas finas.",
     imagen: "/productos/hamburguesa-1.jpg",
-    textoAlternativo: "Hamburguesa con queso cheddar, lechuga y jitomate sobre una tabla de madera",
+    textoAlternativo: "Hamburguesa La Louisiana",
   },
   {
     id: "hamburguesa-2",
