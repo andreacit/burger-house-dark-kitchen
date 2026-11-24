@@ -39,12 +39,12 @@ export const productos: Producto[] = [
   },
   {
     id: "hamburguesa-3",
-    nombre: "Hamburguesa 3",
-    descripcion: "Picante con jalapeños y mayonesa de chipotle.",
+    nombre: "Hamburguesa La Tapa Arterias",
+    descripcion: "Carne de res con costilla desmenuzada, tocino con miel, cheddar fundido y guacamole.",
     detalles:
-      "Carne de res, queso con chile, rodajas de jalapeño, mayonesa de chipotle y pan oscuro. Texto de muestra para la demostración.",
+      "200 g de carne de res y 40 g de costilla de res desmenuzada, con tocino con miel, queso cheddar fundido y guacamole. Se acompaña con una ensalada servida aparte de lechuga fresca, cebolla y jitomate. Puedes elegir pan clásico o pan con topping de hierbas finas.",
     imagen: "/productos/hamburguesa-3.jpg",
-    textoAlternativo: "Hamburguesa en pan oscuro con jalapeños y queso fundido",
+    textoAlternativo: "Hamburguesa La Tapa Arterias",
   },
   {
     id: "hamburguesa-4",
